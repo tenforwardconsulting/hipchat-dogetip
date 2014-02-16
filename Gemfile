@@ -10,6 +10,7 @@ gem 'pg'
 gem 'sass-rails', '~> 4.0.0'
 gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
+gem 'capistrano-rails'
 
 group :doc do
   gem 'sdoc', require: false
@@ -19,5 +20,5 @@ group :development, :test do
   gem 'awesome_print'
   gem 'pry'
   gem 'rspec-rails'
-  gem 'spork'
+  gem 'spork-rails'
 end
