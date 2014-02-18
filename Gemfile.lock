@@ -168,6 +168,7 @@ PLATFORMS
 
 DEPENDENCIES
   awesome_print
+  capistrano-bundler (~> 1.1.2)
   capistrano-rails
   coffee-rails (~> 4.0.0)
   dotenv-rails
